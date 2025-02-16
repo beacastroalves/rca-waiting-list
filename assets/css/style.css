@@ -1,0 +1,22 @@
+header {
+  height: 80px;
+  width: 100%;
+  padding: 1rem;
+
+
+  picture img {
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 490px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+}

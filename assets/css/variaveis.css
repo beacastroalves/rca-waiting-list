@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('./fonts.css');
+
+:root {
+  --app-font-noto: 'Noto Serif', serif;
+
+  --app-color-text: #616161;
+  --app-color-text-rgb:  97, 97, 97;
+
+  --app-color-lightgray: #ebebeb;
+  --app-color-lightgray-tint: #eeeeee;
+  --app-color-lightgray-shade: #d0d0d0;
+
+  --app-color-primary: #9a949b;
+  --app-color-primary-rgb: 154, 148, 155;
+  --app-color-primary-10: rgb(var(--app-color-primary-rgb), 0.1);
+  --app-color-primary-30: rgb(var(--app-color-primary-rgb), 0.3);
+  --app-color-primary-50: rgb(var(--app-color-primary-rgb), 0.5);
+  --app-color-primary-tint: #cac4cb;
+  --app-color-primary-dark: #8e898e;
+  --app-color-primary-shade: #5e595e;
+
+  --app-color-secondary: #C4A582;
+  --app-color-secondary-rgb: 196, 165, 130;
+  --app-color-secondary-tint: #e4c199;
+  --app-color-secondary-dark: #a3896b;
+  --app-color-secondary-shade: #91795d;
+}
